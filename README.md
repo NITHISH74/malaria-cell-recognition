@@ -188,14 +188,18 @@ plt.show()
 ## OUTPUT:
 
 ### Training Loss, Validation Loss Vs Iteration Plot
+![image](https://github.com/NITHISH74/malaria-cell-recognition/assets/94164665/9d58c8cd-a6f4-4ebb-804d-79e26ad7e7fa)
 
 ### Classification Report
 
+![image](https://github.com/NITHISH74/malaria-cell-recognition/assets/94164665/5ec447d4-fa8c-4fac-a826-da459e1e2aad)
 
 ### Confusion Matrix
 
+![image](https://github.com/NITHISH74/malaria-cell-recognition/assets/94164665/240bd2f8-88f7-44d1-a511-d8f8ed9ba40a)
 
 ### New Sample Data Prediction
+![image](https://github.com/NITHISH74/malaria-cell-recognition/assets/94164665/819c02c1-cbbe-4880-9738-77cf5d03d8ce)
 
 
 ## RESULT:
