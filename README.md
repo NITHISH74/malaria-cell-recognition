@@ -1,32 +1,51 @@
-# Deep Neural Network for Malaria Infected Cell Recognition
+# EX06--Deep Neural Network for Malaria Infected Cell Recognition
 
-## AIM
+## AIM:
 
 To develop a deep neural network for Malaria infected cell recognition and to analyze the performance.
 
-## Problem Statement and Dataset
+## Problem Statement and Dataset:
+Malaria dataset of 27,558 cell images with an equal number of parasitized and uninfected cells. A level-set based algorithm was applied to detect and segment the red blood cells. The images were collected and annotated by medical professionals.Here we build a convolutional neural network model that is able to classify the cells.
+![image](https://github.com/NITHISH74/malaria-cell-recognition/assets/94164665/31067447-45e0-4100-8412-60ba20457615)
 
-## Neural Network Model
+## Neural Network Model:
 
-Include the neural network model diagram.
+![image](https://github.com/NITHISH74/malaria-cell-recognition/assets/94164665/4c16630b-3aa1-4d1c-b485-c4458261d575)
+## DESIGN STEPS:
 
-## DESIGN STEPS
+### STEP 1:
+Import tensorflow and preprocessing libraries.
 
-STEP 1:
-Import necessary packages
+### STEP 2:
+Download and load the dataset folder.
 
-STEP 2:
-Preprocess the image using data augmentation
+### STEP 3:
+Split the training and testing folders.
 
-STEP 3:
-Fit the model using the augmented images
+### STEP 4:
+Perform image data generation methods.
 
-## PROGRAM
-~~~python
+### STEP 6:
+Build the convolutional neural network model.
+
+### STEP 7:
+Train the model with the training data.
+
+### STEP 8:
+Plot the performance plot.
+
+### STEP 9:
+Evaluate the model with the testing data using probability prediction(uninfected-> prob>0.5,parasitized-> <=0.5).
+
+### STEP 10:
+Fit the model and predict the sample input.
+
+## PROGRAM:
+```python
 ### Developed By    : Nithishwar S
 ### Register Number : 212221230071
-~~~
-~~~python
+```
+```python
 import os
 import pandas as pd
 import numpy as np
@@ -164,24 +183,20 @@ plt.title("Model prediction: "+("Parasitized" if pred  else "Uninfected")+"\nAct
 plt.axis("off")
 plt.imshow(img)
 plt.show()
-~~~
+```
 
-## OUTPUT
+## OUTPUT:
 
 ### Training Loss, Validation Loss Vs Iteration Plot
 
-Include your plot here
-
 ### Classification Report
 
-Include Classification Report here
 
 ### Confusion Matrix
 
-Include confusion matrix here
 
 ### New Sample Data Prediction
 
-Include your sample cell image input and output of your model.
 
-## RESULT
+## RESULT:
+Thus, a deep neural network for Malaria infected cell recognition is developed and the performance is analyzed.
